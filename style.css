@@ -1,0 +1,410 @@
+html,body{
+    height:100%;
+}
+.mainfrontpage {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* all codes about the primary container */
+.mainfrontpage{
+    display: flex;
+    position: relative;
+    height:auto;
+    width: auto;
+    justify-content:space-evenly;
+    margin: 0%;
+    border: solid 5px peachpuff;
+    
+}
+
+
+/* All codes about LHS of screen  */
+
+
+/* a class which defines all elements present as block */
+.blockmode{
+    display: block;
+}
+
+#false{
+    opacity: 0;
+}
+.sidebanner{
+    background-image: url(iphone.png);
+    background-size: 360px 742px;
+    background-repeat: no-repeat;
+    position:relative;
+    margin: 1%;
+    display: block;
+    height:730px;
+    width: 350px;
+    text-align: center;
+    position: relative;
+    background-color:transparent;
+    padding-bottom: 20px;
+}
+
+#secondgif{
+    display: block;
+    height: 695px;
+    width:305px;
+    border: 5px rgb(0, 0, 0) solid;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 40px;
+    border-top-right-radius:35px;
+    text-align: center;
+    margin-left:26px;
+    margin-bottom: 2px;
+    background-image: url(giphy.gif);
+}
+
+
+/* The div container of my brand logo */
+.logo1{
+    height:auto;
+    width: auto;
+    position: relative;
+    text-align: center;
+    
+}
+.bekaar{
+    color: white;
+    text-decoration:none;
+}
+/* The class of my brand logo */
+.firstimg{
+    height: 100px;
+    width: 120px;
+    margin: 2px;
+}
+
+
+/*The primaey div container which holds the image personal*/
+.imgdiv{
+    position: relative;
+    text-align: center;
+    height:auto;
+    width: auto;
+    margin: 10px;
+    padding:10px;
+    padding-left: 16px;
+}
+
+/* the class of my personal image */
+.mainlogo1{
+    height: 245px;
+    width: 240px;
+    margin:16px 2px 2px 1px;
+    padding: 2px;
+    border:blue ridge 5px;
+    border-radius: 200px;
+}
+
+/* This block contains all the further Divs of Social Media handles */
+.dynamictitle{
+    text-align: center;
+    
+
+}
+
+/* Start the Social Handles*/
+
+/* The Div which contains the "Social" text and the image with id #Socialm */
+
+#autospace{
+    height:auto;
+    width: auto;
+
+}
+
+#Socialm{
+    height: 55px;
+    width: 140px;
+}
+
+/* The div tag which contains the 3 social media handles */
+.bar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin: 15px;
+}
+
+.button1 {
+    animation: wiggle 2s linear infinite;
+  }
+  
+  /* Keyframes */
+  @keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  
+  .button1 {
+    border: none;
+    border-bottom: 3px solid orange;
+    border-radius: 0 0 0.2em 0.2em;
+    color: #fff;
+    font-family: Helvetica, Arial, Sans-serif;
+    font-size: 1em;
+    transform-origin: 50% 5em;
+  }
+
+/* Now,, the 3 IDs of the 3 SM handles */
+#insta{
+    background-image: url(instalogo.png);
+    border: none ;
+    height: 55px;
+    width: 55px;
+    background-size:contain; /* Adjust as needed */
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-blend-mode:normal;
+}
+
+#linke{
+    background-image: url(linkedin.png);
+    border: none ;
+    height: 55px;
+    width: 55px;
+    background-size:cover; /* Adjust as needed */
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-blend-mode:normal;
+}
+
+#twitt{
+    background-image: url(R.png);
+    border: none ;
+    height: 55px;
+    width: 55px;
+    background-size:contain; /* Adjust as needed */
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-blend-mode:normal;
+
+}
+
+/* to hide the text written in anchor tag of SM buttons */
+.hidecolor{
+    opacity: 0;
+}
+
+/* Non-Js feature to play audio */
+#audi{
+    opacity: 10%;
+}
+
+
+
+/* SideBar Ends */
+
+
+
+
+
+/* All codes about RHS of screen  */
+.mainpage{
+    display: block;
+    height:auto;
+    width: 60%;
+
+    position: relative;
+}
+
+#title1{
+
+    display: flex;
+    justify-content: left;
+    position: relative;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+
+}
+
+#forspace{
+    height: auto;
+    width: 10%;
+}
+
+#bar{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 5px;
+
+    height: 50px;
+    width: 100%;
+    position: relative;
+
+
+}
+
+
+#main{
+    height: 75%;
+    width: 100%;
+    position: relative;
+    background-image: url(mac.png);
+    background-size: 945px 500px;
+    background-repeat: no-repeat;
+    margin: 20px;
+    padding-left: 25px;
+    padding-top: 18px;
+
+
+}
+#forgif{
+    background-image: url(second\ background.gif);
+    margin-left: 95px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    height: 405px;
+    width:689px;
+}
+
+#about{
+    margin-left: 12%;
+    margin-right: 15%;
+    margin-top: 3%;
+    padding: 1%;
+
+    
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+.typed {
+    border-right: solid 3px rgba(0,255,0,.75);
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: 'Source Code Pro', monospace;  
+    font-size: 28px;
+    color: rgba(255,255,255,.70);
+  }
+  
+  /* Animation */
+  .typed {
+    animation: animated-text 4s steps(29,end) 1s 1 normal both,
+               animated-cursor 600ms steps(50,end) infinite;
+               animation-iteration-count: infinite;
+  }
+  
+  /* text animation */
+  
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 700px;}
+  }
+  
+  /* cursor animations */
+  
+  @keyframes animated-cursor{
+    from{border-right-color: rgba(0,255,0,.75);}
+    to{border-right-color: transparent;}
+  }
+
+
+
+
+
+
+.burrons1{
+    background-color:transparent;
+  border: 2px solid white ;
+  border-radius: 6px;
+  color: rgb(53, 85, 4);
+  padding:10px;
+  margin: 5px;
+
+  text-align: center;
+  justify-content: center;
+  text-decoration:wavy;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* This is the code for glowing animation # glow-text*/
+
+@keyframes glowing {
+    0% { color: #fff; text-shadow: 0 0 5px #fff; }
+    50% { color: #f7f91e; text-shadow: 0 0 30px #f7f91e; }
+    100% { color: #fff; text-shadow: 0 0 5px #fff; }
+}
+
+/* Style for the text */
+.glow-text {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Apply the glowing effect on hover */
+.glow-text:hover {
+    animation: glowing 1.5s infinite;
+}
+
+
+/* This is the code for glowing animation # glow-text2*/
+
+@keyframes glowing2 {
+    0% { color: #fff; text-shadow: 0 0 5px #fff; }
+    50% { color: #336ef7; text-shadow: 0 0 20px #42eef7; }
+    100% { color: #fff; text-shadow: 0 0 5px #fff; }
+}
+
+/* Style for the text */
+.glow-text2 {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Apply the glowing effect on hover */
+.glow-text2:hover {
+    animation: glowing2 1.5s infinite;
+}
